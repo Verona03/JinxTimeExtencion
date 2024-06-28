@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Jinx Extension",
+    "version": "0.0.3",
+    "description": "Extensão da Jinx code",
+    "action": {
+        "default_popup": "index.html",
+        "default_title": "Jinx Code"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
+
